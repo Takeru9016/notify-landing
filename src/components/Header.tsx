@@ -30,6 +30,12 @@ export default function Header() {
               Privacy
             </Link>
             <Link
+              to="/terms"
+              className="text-gray-700 hover:text-primary transition"
+            >
+              Terms
+            </Link>
+            <Link
               to="/support"
               className="text-gray-700 hover:text-primary transition"
             >

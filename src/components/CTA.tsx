@@ -1,4 +1,3 @@
-import { Apple, Play } from "lucide-react";
 import { motion } from "motion/react";
 
 import { Button } from "@/components/ui/button";
@@ -20,22 +19,26 @@ export default function CTA() {
             Download Notify and connect with your favorite person in seconds.
           </p>
 
-          <div className="flex flex-wrap gap-4 justify-center">
+          <p className="text-xl font-bold text-white/90">
+            Coming soon on iOS and Android.
+          </p>
+
+          <div className="flex flex-wrap gap-4 justify-center mt-3">
             <Button
               size="lg"
               variant="outline"
-              className="gap-2 bg-white text-primary hover:bg-gray-100"
+              className="gap-2 bg-white text-black hover:bg-gray-100"
             >
-              <Apple className="w-5 h-5" />
-              Download on App Store
+              <img src="/apple.svg" className="w-5 h-5" />
+              App Store
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="gap-2 bg-white text-primary hover:bg-gray-100"
+              className="gap-2 bg-white text-black hover:bg-gray-100"
             >
-              <Play className="w-5 h-5" />
-              Get it on Google Play
+              <img src="/google-play.svg" className="w-5 h-5" />
+              Google Play
             </Button>
           </div>
         </motion.div>

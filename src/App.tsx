@@ -4,6 +4,7 @@ import { Footer, Header } from "./components";
 import Privacy from "./pages/Privacy";
 import Support from "./pages/Support";
 import Home from "./pages/Home";
+import Eula from "./pages/EULA";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Eula />} />
             <Route path="/support" element={<Support />} />
           </Routes>
         </main>

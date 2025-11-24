@@ -1,4 +1,3 @@
-import { Apple, Play } from "lucide-react";
 import { motion } from "motion/react";
 
 import { Button } from "@/components/ui/button";
@@ -42,21 +41,22 @@ export default function Hero() {
               noise—just the two of you.
             </p>
 
-            <div className="flex flex-wrap items-center gap-4 mb-3">
+            <p className="text-sm font-bold text-muted-foreground">
+              Coming soon on iOS and Android.
+              <br />
+              No accounts required—pair in seconds with a one-time code.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-4 mb-3 mt-3">
               <Button size="lg" className="gap-2">
-                <Apple className="w-5 h-5" />
+                <img src="/apple.svg" className="w-5 h-5" />
                 App Store
               </Button>
               <Button size="lg" variant="outline" className="gap-2">
-                <Play className="w-5 h-5" />
+                <img src="/google-play.svg" className="w-5 h-5" />
                 Google Play
               </Button>
             </div>
-
-            <p className="text-xs text-muted-foreground">
-              Coming soon on iOS and Android. No accounts required—pair in
-              seconds with a one-time code.
-            </p>
           </motion.div>
 
           {/* RIGHT: PHONE MOCKUP */}
