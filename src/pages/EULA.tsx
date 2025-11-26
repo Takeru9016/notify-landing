@@ -13,8 +13,8 @@ export default function Eula() {
 
           <p>
             This End User License Agreement ("Agreement") is a legal agreement
-            between you ("User") and Notify ("Company", "we", "us") governing
-            your use of the Notify mobile application (the "App").
+            between you ("User") and Syngo ("Company", "we", "us") governing
+            your use of the Syngo mobile application (the "App").
           </p>
 
           <p>

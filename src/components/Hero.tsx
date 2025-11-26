@@ -36,7 +36,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-lg text-muted-foreground mb-7 max-w-md">
-              Notify helps you and your favorite person stay in sync with shared
+              Syngo helps you and your favorite person stay in sync with shared
               todos, reminders, and small moments that matter. No feeds, no
               noise—just the two of you.
             </p>
@@ -48,7 +48,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mb-3 mt-3">
-              <Button size="lg" className="gap-2">
+              <Button size="lg" variant="outline" className="gap-2">
                 <img src="/apple.svg" className="w-5 h-5" />
                 App Store
               </Button>
@@ -78,7 +78,7 @@ export default function Hero() {
                   {/* Replace with your actual screenshot */}
                   <img
                     src="/screens/onboarding.png"
-                    alt="Notify onboarding screen"
+                    alt="Syngo onboarding screen"
                     className="h-full w-full object-cover"
                   />
                 </div>

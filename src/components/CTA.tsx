@@ -16,7 +16,7 @@ export default function CTA() {
             Start a shared space today
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Download Notify and connect with your favorite person in seconds.
+            Download Syngo and connect with your favorite person in seconds.
           </p>
 
           <p className="text-xl font-bold text-white/90">

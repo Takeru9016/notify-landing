@@ -8,8 +8,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-linear-to-br from-primary to-secondary rounded-lg" />
-              <span className="text-xl font-bold">Notify</span>
+            <img src="/icon.png" className="w-8 h-8 rounded-lg" />
+              <span className="text-xl font-bold">Syngo</span>
             </div>
             <p className="text-gray-600 max-w-sm">
               Stay in sync with your favorite person. Shared todos, reminders,
@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t text-center text-gray-600 text-sm">
-          © {new Date().getFullYear()} Notify. All rights reserved.
+          © {new Date().getFullYear()} Syngo. All rights reserved.
         </div>
       </div>
     </footer>

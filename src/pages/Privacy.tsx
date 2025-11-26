@@ -10,9 +10,9 @@ export default function Privacy() {
           </p>
 
           <p>
-            Thank you for using <strong>Notify</strong> ("we", "us", or "our").
+            Thank you for using <strong>Syngo</strong> ("we", "us", or "our").
             This Privacy Policy explains how we collect, use, and protect your
-            information when you use the Notify mobile application (the "App").
+            information when you use the Syngo mobile application (the "App").
           </p>
 
           <p>
@@ -25,7 +25,7 @@ export default function Privacy() {
           </h2>
           <p>
             We collect the minimum information needed to provide the core
-            features of Notify.
+            features of Syngo.
           </p>
 
           <h3 className="text-2xl font-semibold mt-8 mb-3">
@@ -223,7 +223,7 @@ export default function Privacy() {
             6. Children's Privacy
           </h2>
           <p>
-            Notify is not directed to children under the age of 13, and we do
+            Syngo is not directed to children under the age of 13, and we do
             not knowingly collect personal information from children under 13.
             If you are a parent or guardian and believe that your child has
             provided us with personal information, please contact us so we can

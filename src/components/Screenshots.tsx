@@ -55,7 +55,7 @@ export default function Screenshots() {
             From pairing to everyday moments
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground">
-            Notify is designed as a simple journey. Pair once, then live in a
+            Syngo is designed as a simple journey. Pair once, then live in a
             shared space that quietly keeps you both on the same page.
           </p>
         </div>

@@ -42,7 +42,7 @@ export default function Support() {
               <FileText className="w-8 h-8 text-primary mb-2" />
               <CardTitle>Documentation</CardTitle>
               <CardDescription>
-                Read our privacy policy and learn more about how Notify works.
+                Read our privacy policy and learn more about how Syngo works.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -78,7 +78,7 @@ export default function Support() {
                 Can I pair with more than one person?
               </h3>
               <p className="text-gray-600">
-                Currently, Notify is designed for pairs only. You can unpair and
+                Currently, Syngo is designed for pairs only. You can unpair and
                 pair with someone else, but you can only be paired with one
                 person at a time.
               </p>
@@ -108,7 +108,7 @@ export default function Support() {
 
             <div>
               <h3 className="font-semibold text-lg mb-2">
-                Does Notify work offline?
+                Does Syngo work offline?
               </h3>
               <p className="text-gray-600">
                 Yes, you can view and create todos offline. Changes will sync

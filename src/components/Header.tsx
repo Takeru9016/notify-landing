@@ -11,8 +11,8 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-linear-to-br from-primary to-secondary rounded-lg" />
-            <span className="text-xl font-bold">Notify</span>
+            <img src="/icon.png" className="w-8 h-8 rounded-lg" />
+            <span className="text-xl font-bold">Syngo</span>
           </Link>
 
           {/* Desktop Nav */}
